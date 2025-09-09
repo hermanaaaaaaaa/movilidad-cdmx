@@ -1,7 +1,9 @@
 :root{
     --bg-color: #101010;
     --accent-color: #ff0fff;
-    --text-color: #ffffff;
+    --hover-color: #7f7200;
+    --link-color: #675689;
+    --text-color: #ffffff; 
     --font-family: "amifer", sans-serif;
     
 }
@@ -16,5 +18,9 @@ h1, h2, h3, h4, h5, h6 {
 .nav-link {
     background-color: var(--accent-color);
     color: var(--text-color);
-
+    transition: all 0.3s ease;
+}
+.nav-link {
+    background-color: var(--hover-color);
+    color: var(--link-color);
 }
